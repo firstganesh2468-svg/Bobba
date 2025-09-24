@@ -2,68 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Happy Dhashain</title>
-                <style>
-                        body {
-                                        margin: 0;
-                                                    font-family: 'Arial', sans-serif;
-                                                                background-color: #f0f5f5;
-                                                                            display: flex;
-                                                                                        justify-content: center;
-                                                                                                    align-items: center;
-                                                                                                                height: 100vh;
-                        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Dhashain</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-                                .container {
-                                                background-color: #dce8e4;
-                                                            padding: 40px;
-                                                                        border-radius: 10px;
-                                                                                    text-align: center;
-                                                                                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                                }
+        .container {
+            background-color: #dce8e4;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-                                        h1 {
-                                                        font-size: 3em;
-                                                                    color: #2f4f4f;
-                                                                                margin-bottom: 20px;
-                                        }
+        h1 {
+            font-size: 3em;
+            color: #2f4f4f;
+            margin-bottom: 20px;
+        }
 
-                                                p {
-                                                                font-size: 1.2em;
-                                                                            color: #4a6f6f;
-                                                                                        margin-bottom: 30px;
-                                                }
+        p {
+            font-size: 1.2em;
+            color: #4a6f6f;
+            margin-bottom: 30px;
+        }
 
-                                                        button {
-                                                                        padding: 12px 25px;
-                                                                                    background-color: #38a1db;
-                                                                                                color: white;
-                                                                                                            border: none;
-                                                                                                                        border-radius: 5px;
-                                                                                                                                    font-size: 1.1em;
-                                                                                                                                                cursor: pointer;
-                                                        }
+        button {
+            padding: 12px 25px;
+            background-color: #38a1db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
 
-                                                                button:hover {
-                                                                                background-color: #2a8fa2;
-                                                                }
-                                                                    </style>
-                                                                    </head>
-                                                                    <body>
-                                                                        <div class="container">
-                                                                                <div class="content">
-                                                                                            <h1>Happy Dhashain!</h1>
-                                                                                                        <p>Wishing you health, wealth, and happiness on this auspicious occasion.</p>
-                                                                                                                    <button>Celebrate Now</button>
-                                                                                                                            </div>
-                                                                                                                                </div>
-                                                                                                                                </body>
-                                                                                                                                </html>
-                                                                                                                                
-                                                                }
-                                                        }
-                                                }
-                                        }
-                                }
-                        }
+        button:hover {
+            background-color: #2a8fa2;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://www.google.com/search?q=Dashain+festival&tbm=isch&source=iu&ictx=1&fir=1AmkY2zX1LPv7M%252C8F1GF2kwfCoXwM%252C_&vet=1&usg=AI4_-kS5MEFLHmvD4mB2RGyD9_jHvHnshQ&sa=X&ved=2ahUKEwiW6N2Gnsz-AhXYyoUKHdx6CokQ9QF6BAgFEAI#imgrc=1AmkY2zX1LPv7M" alt="Dashain Festival Image">
+        </div>
+        <div class="content">
+            <h1>Happy Dhashain!</h1>
+            <p>Wishing you health, wealth, and happiness on this auspicious occasion.</p>
+            <button>Celebrate Now</button>
+        </div>
+    </div>
+</body>
+</html>
